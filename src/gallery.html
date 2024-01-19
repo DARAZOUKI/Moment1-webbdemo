@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png"  href="images/favicon.png">
+    <link rel="icon" type="image/x-icon"  href="images/favicon.ico">
+    <script src="java.js" type="module"></script>
+    <script defer src="optimize-images.js" type="module"></script>
+    <title>BILDER</title>
+</head>
+<header>
+    <h1 class="logo"><a href="index.html"><img src="images/logo.svg" alt="logo"> Webb</a></h1>
+    <button class="menu-btn open" id="open-menu">
+        <span class="menu-icon">
+            <span class="bars"></span>
+            <span class="bars"></span>
+            <span class="bars"></span>
+        </span>
+    </button>
+    <nav id="nav-menu">
+        <button class="menu-btn close" id="close-menu">
+            <span class="menu-icon">
+                <span class="bars c1"></span>
+                <span class="bars c2"></span>
+            </span>
+            <span class="menu-text">X</span>
+        </button>
+        <ul>
+      <ul>
+        <li><a href="index.html">STARTSIDAN</a></li>
+        <li><a href="gallery.html">BILDER</a></li>
+        <li><a href="publish.html">UNDERSIDAN</a></li>
+      </ul>
+    </nav>
+</header>
+<body>
+    <main>
+        <h1>Bildundersida</h1>
+        <section class="image-gallery">
+            
+          <picture>
+            <source srcset="images/image1.avif" type="image/avif">
+            <source srcset="images/image1.webp" type="image/webp">
+            <img src="images/image1.jpg" alt="Image1">
+        </picture>
+        <picture>
+            <source srcset="images/image2.avif" type="image/avif">
+            <source srcset="images/image2.webp" type="image/webp">
+            <img src="images/image2.jpg" alt="Image2">
+        </picture>
+        <picture>
+            <source srcset="images/image3.avif" type="image/avif">
+            <source srcset="images/image3.webp" type="image/webp">
+            <img src="images/image3.jpg" alt="Image3">
+        </picture>
+        <picture>
+            <source srcset="images/image4.avif" type="image/avif">
+            <source srcset="images/image4.webp" type="image/webp">
+            <img src="images/image4.jpg" alt="Image4">
+        </picture>
+        <picture>
+            <source srcset="images/image5.avif" type="image/avif">
+            <source srcset="images/image5.webp" type="image/webp">
+            <img src="images/image5.jpg" alt="Image5">
+        </picture>
+       
+     
+        </section>
+      </main>
+    <footer>
+        <h4>&copy;2024-01-19/ Dania Abd Almajeed , daab2301@student.miun.se</h4>
+    </footer>
+</body>
+</html>
