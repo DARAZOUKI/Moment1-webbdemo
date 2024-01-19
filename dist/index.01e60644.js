@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){let e=document.getElementById("open-menu"),n=document.getElementById("close-menu");function t(){let e=document.getElementById("nav-menu"),n=window.getComputedStyle(e);e.style.display="none"===n.display?"block":"none"}e.addEventListener("click",t),n.addEventListener("click",t)});
